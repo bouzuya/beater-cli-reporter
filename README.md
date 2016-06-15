@@ -14,7 +14,7 @@ See: [bouzuya/beater][] README.
 
 [npm-badge-url]: https://badge.fury.io/js/beater-cli-reporter.svg
 [npm-url]: https://www.npmjs.com/package/beater-cli-reporter
-[circleci-badge-url]: https://circleci.com/gh/bouzuya/beater-cli-reporter.svg?style=svg&dummy
+[circleci-badge-url]: https://circleci.com/gh/bouzuya/beater-cli-reporter.svg?style=svg
 [circleci-url]: https://circleci.com/gh/bouzuya/beater-cli-reporter
 
 ## License
