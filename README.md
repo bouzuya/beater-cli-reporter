@@ -10,7 +10,6 @@ See: [bouzuya/beater][] README.
 ## Badges
 
 [![npm version][npm-badge-url]][npm-url]
-[![Circle CI][circleci-badge-url]][circleci-url]
 
 [npm-badge-url]: https://badge.fury.io/js/beater-cli-reporter.svg
 [npm-url]: https://www.npmjs.com/package/beater-cli-reporter
