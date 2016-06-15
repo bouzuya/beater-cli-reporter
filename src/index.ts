@@ -1,13 +1,13 @@
 import { ChildProcess } from 'child_process';
 import { red, green } from 'colo';
 import * as setBlocking from 'set-blocking';
-import { Reporter as IReporter, Test, TestResult } from 'beater-reporter';
+import { Reporter, Test, TestResult } from 'beater-reporter';
 import { console } from './console';
 
 const v = '\u2713'; // U+2713 CHECK MARK
 const x = '\u2717'; // U+2717 BALLOT X
 
-export default class Reporter implements IReporter {
+class BeaterCliReporter implements Reporter {
   constructor() {
     // FIXME: workaround for https://github.com/nodejs/node/pull/6773
     setBlocking(true);
@@ -40,4 +40,8 @@ export default class Reporter implements IReporter {
     if (!!result.error) return;
     console.log(`${green(v + ' success: ')}${result.test.name}`);
   }
+}
+
+export default function (): Reporter {
+  return new BeaterCliReporter();
 }
