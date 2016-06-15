@@ -1,6 +1,6 @@
 # beater-cli-reporter
 
-[beater-cli][] default reporter.
+[beater-cli][bouzuya/beater-cli] default reporter.
 
 See: [bouzuya/beater][] README.
 
