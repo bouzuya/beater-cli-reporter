@@ -1,5 +1,5 @@
 {
-  "name": "beater-reporter",
+  "name": "beater-cli-reporter",
   "globalDevDependencies": {
     "empower": "registry:dt/empower#0.0.0+20160317120654",
     "node": "registry:dt/node#6.0.0+20160524002506",
