@@ -17,6 +17,7 @@
     "url": "https://github.com/bouzuya/beater-cli-reporter/issues"
   },
   "dependencies": {
+    "beater-reporter": "0.3.0",
     "colo": "0.3.2",
     "set-blocking": "2.0.0"
   },
