@@ -1,40 +1,11 @@
-# beater-reporter
+# beater-cli-reporter
 
-default [beater][bouzuya/beater] reporter.
+[beater-cli][] default reporter.
+
+See: [bouzuya/beater][] README.
 
 [bouzuya/beater]: https://github.com/bouzuya/beater
-
-## Installation
-
-### for `beater@0.3.0`
-
-```
-$ npm install beater-reporter@0.1.0
-```
-
-### for `beater@0.4.x`
-
-```
-$ npm install beater-reporter
-```
-
-## Usage
-
-```js
-$ beater --reporter beater-reporter
-```
-
-or
-
-`package.json`
-
-```js
-{
-  "beater": {
-    "reporter": "beater-reporter"
-  }
-}
-```
+[bouzuya/beater-cli]: https://github.com/bouzuya/beater-cli
 
 ## Badges
 
@@ -51,5 +22,5 @@ or
 [user]: https://github.com/bouzuya
 [email]: mailto:m@bouzuya.net
 [url]: http://bouzuya.net
-[circleci-badge-url]: https://circleci.com/gh/bouzuya/beater-reporter.svg?style=svg
-[circleci-url]: https://circleci.com/gh/bouzuya/beater-reporter
+[circleci-badge-url]: https://circleci.com/gh/bouzuya/beater-cli-reporter.svg?style=svg
+[circleci-url]: https://circleci.com/gh/bouzuya/beater-cli-reporter
