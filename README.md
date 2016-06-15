@@ -9,7 +9,13 @@ See: [bouzuya/beater][] README.
 
 ## Badges
 
+[![npm version][npm-badge-url]][npm-url]
 [![Circle CI][circleci-badge-url]][circleci-url]
+
+[npm-badge-url]: https://badge.fury.io/js/beater-cli-reporter.svg
+[npm-url]: https://www.npmjs.com/package/beater-cli-reporter
+[circleci-badge-url]: https://circleci.com/gh/bouzuya/beater-cli-reporter.svg?style=svg
+[circleci-url]: https://circleci.com/gh/bouzuya/beater-cli-reporter
 
 ## License
 
@@ -22,5 +28,3 @@ See: [bouzuya/beater][] README.
 [user]: https://github.com/bouzuya
 [email]: mailto:m@bouzuya.net
 [url]: http://bouzuya.net
-[circleci-badge-url]: https://circleci.com/gh/bouzuya/beater-cli-reporter.svg?style=svg
-[circleci-url]: https://circleci.com/gh/bouzuya/beater-cli-reporter
