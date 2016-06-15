@@ -1,6 +1,6 @@
 {
-  "name": "beater-reporter",
-  "description": "default beater reporter",
+  "name": "beater-cli-reporter",
+  "description": "beater-cli default reporter",
   "version": "0.2.1",
   "author": {
     "name": "bouzuya",
