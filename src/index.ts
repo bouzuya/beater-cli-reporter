@@ -1,9 +1,7 @@
 import { ChildProcess } from 'child_process';
 import { red, green } from 'colo';
 import * as setBlocking from 'set-blocking';
-import { Reporter as IReporter } from './reporter';
-import { Test } from './test';
-import { TestResult } from './test-result';
+import { Reporter as IReporter, Test, TestResult } from 'beater-reporter';
 import { console } from './console';
 
 export default class Reporter implements IReporter {
