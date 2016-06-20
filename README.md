@@ -10,12 +10,12 @@ See: [bouzuya/beater][] README.
 ## Badges
 
 [![npm version][npm-badge-url]][npm-url]
-[![Circle CI][circleci-badge-url]][circleci-url]
+[![Travis CI][travisci-badge-url]][travisci-url]
 
 [npm-badge-url]: https://badge.fury.io/js/beater-cli-reporter.svg
 [npm-url]: https://www.npmjs.com/package/beater-cli-reporter
-[circleci-badge-url]: https://circleci.com/gh/bouzuya/beater-cli-reporter.svg?style=svg
-[circleci-url]: https://circleci.com/gh/bouzuya/beater-cli-reporter
+[travisci-badge-url]: https://travis-ci.org/bouzuya/beater-cli-reporter.svg?branch=master
+[travisci-url]: https://travis-ci.org/bouzuya/beater-cli-reporter
 
 ## License
 
