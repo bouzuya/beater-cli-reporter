@@ -61,10 +61,10 @@
     "copy": "([ -d lib/ ] || mkdir -p lib/) && (cp -R .tmp/es5/src/* lib/) &&  (cp .tmp/es2015/src/*.d.ts lib/)",
     "prepublish": "typings install && npm run clean && npm run build",
     "test": "beater",
-    "test:watch": "watch --wait 2 'npm test' '.tmp/es5/test/'",
     "watch": "parallelshell 'tsc --watch' 'npm run watch-babel' 'npm run watch-copy' 'npm run watch-test'",
     "watch-babel": "npm run babel -- --watch",
-    "watch-copy": "watch --wait 2 'npm run copy' '.tmp/es5/src/'"
+    "watch-copy": "watch --wait 2 'npm run copy' '.tmp/es5/src/'",
+    "watch-test": "watch --wait 2 'npm test' '.tmp/es5/test/'"
   },
   "typings": "lib/index.d.ts"
 }
