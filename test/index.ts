@@ -1,5 +1,7 @@
 import assert from 'power-assert';
-import { test } from 'beater';
+import beater from 'beater';
+
+const { test } = beater();
 
 test('index', () => {
   assert(1 === 1);
